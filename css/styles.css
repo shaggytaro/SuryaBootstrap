@@ -1,0 +1,189 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Poppins";
+}
+
+/* headings */
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+p{
+    color: grey;
+}
+
+/* containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section{
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Poppins';
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family:"Poppins";
+}
+
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+    font-family: "Poppins";
+
+}
+
+/* title section */
+#title {
+
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* title-image */
+
+.title-image{
+    transform: rotate(25deg);
+    position:absolute;
+
+}
+
+/* feature section */
+
+.feature-heading{
+    font-weight: bold;
+    font-family: "Poppins";
+    line-height: 1.5;
+}
+
+#features{
+
+    position:relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+
+.emoji{
+    color: orange;
+    margin-bottom: 1rem;
+}
+
+.emoji:hover{
+    color: #ff5349;
+}
+
+/* Testimonial */
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+#press{
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* pricing section */
+
+#pricing{
+    padding:100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.dish{
+    font-family: "Poppins";
+}
+
+.button-order{
+    font-family: "Poppins";
+}
+
+.price-text{
+    font-family: "Poppins";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* CTA Section */
+
+
+/* footer section */
+
+
+.social-icon{
+    margin: 20px 10px   ;
+}
+
+
+
+@media (max-width: 1020px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
